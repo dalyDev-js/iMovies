@@ -1,0 +1,27 @@
+.watchlist-container {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.card {
+  height: 85vh;
+}
+
+.nav-container {
+}
+
+.tv-container,
+.movies-container {
+  min-height: 100vh;
+}
