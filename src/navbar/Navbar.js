@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setCategory, setType } from "../Redux/Actions/type_category_Action";
 import { changeTheme } from "../Redux/Actions/themeAction";
 import { LanguageContext } from "../contexts/languageContext";
+import { fetchMovies } from "../Redux/Slices/moviesSlice";
 
 function Navbar({ onSearch }) {
   // const [darkMode, setDarkMode] = useState(false);

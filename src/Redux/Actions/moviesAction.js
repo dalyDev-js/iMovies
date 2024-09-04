@@ -6,7 +6,7 @@ export const getData =
     let URL = `/${type}/${category}?&page=${page}&language=${language}`;
 
     if (searchQuery) {
-      URL = `/${type}?query=${searchQuery}&&page=${page}`;
+      URL = `search/${type}?query=${searchQuery}&&page=${page}`;
     } else {
       URL = `/${type}/${category}?&page=${page}&language=${language}`;
     }
